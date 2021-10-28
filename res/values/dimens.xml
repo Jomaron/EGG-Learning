@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--发现  橙色字体大小-->
+    <dimen name="found_orange_text_size">11sp</dimen>
+    <!--我的积分，兑换记录  字体大小-->
+    <dimen name="found_record_text_size">13sp</dimen>
+    <!--我的积分，兑换记录  外边距-->
+    <dimen name="found_distance_text">5dp</dimen>
+    
+    <!-- chat -->
+    
+    <!-- 相册 begin -->
+    <dimen name="top_bar_default_height">60dp</dimen>
+    <dimen name="top_bar_icon_vertical_padding">8dp</dimen>
+    <dimen name="top_title_size">20sp</dimen>
+    <dimen name="top_bar_btn_minWidth">56dp</dimen>
+    <dimen name="bottom_bar_default_height">50dp</dimen>
+    <dimen name="top_bar_btn_right_margin">12dp</dimen>
+    <dimen name="album_list_item_name_size">15sp</dimen>
+    <dimen name="album_top_cancel_size">14sp</dimen>
+    <!-- 相册end -->
+	
+	<!-- title begin -->
+    <dimen name="defauleTitleHeight">48dp</dimen>
+    <dimen name="defauleTitleBtnWidth">65dp</dimen>
+    <dimen name="defauleTitleBtnHeight">48dp</dimen>
+    <dimen name="defauleTitleBtnPadding">11dp</dimen>
+    <dimen name="titleBarHeight">48dp</dimen>
+    <dimen name="titleTextSizeMin">4dp</dimen>
+    <dimen name="title_textsize">8dp</dimen>
+    <!-- title end -->
+</resources>

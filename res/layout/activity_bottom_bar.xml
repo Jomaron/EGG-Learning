@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBCBE" />
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_nearby"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableLeft="@drawable/nearby"
+            android:drawablePadding="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="附近"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_path"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableLeft="@drawable/path"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="路线"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_myself"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableLeft="@drawable/myself"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="25dp"
+            android:text="我的"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

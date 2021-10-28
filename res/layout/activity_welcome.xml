@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/Welcome_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+    
+    <ImageButton 
+        android:id="@+id/welcome_startimgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/guide_start"
+        android:layout_marginBottom="120dp"
+        android:visibility="invisible"
+        android:scaleType="fitCenter"/>
+    
+    <!-- scaleType=“fitCenter” 是将原图沿上方居中的点，按比例缩放原图绘制而成的。-->
+        
+</FrameLayout>

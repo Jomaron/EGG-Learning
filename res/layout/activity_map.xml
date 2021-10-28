@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/id_bmapView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true" />
+
+        <include layout="@layout/activity_bottom_bar" />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_white"
+        android:textColor="@android:color/black"
+        android:drawableLeft="@drawable/search_icn"
+        android:drawableRight="@drawable/voice"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="查找地点、公交、地铁"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/btn_original"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btn_bg"
+        android:textSize="13dp"
+        android:textColor="@android:color/white"
+        android:text="原始" />
+    
+    <Button
+        android:id="@+id/btn_weiXing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/btn_bg"
+        android:textSize="13dp"
+        android:textColor="@android:color/white"
+        android:text="卫星" />
+    
+    <Button
+        android:id="@+id/btn_traffic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/btn_bg"
+        android:textSize="13dp"
+        android:textColor="@android:color/white"
+        android:text="交通" />
+    
+    <Button
+        android:id="@+id/btn_my_local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:drawableTop="@drawable/luopan"
+        android:background="@null"
+        android:textSize="10dp"
+        android:text="当前位置" />
+    
+    <RelativeLayout
+        android:id="@+id/composer_buttons_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:clipChildren="false"
+        android:clipToPadding="false" >
+
+        <ImageButton
+            android:id="@+id/map_mode_common"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="340dp"
+            android:layout_marginRight="13dp"
+            android:background="@drawable/path2_composer_place"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/map_mode_following"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="365dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/path2_composer_sleep"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/map_mode_compass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="405dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="90dp"
+            android:background="@drawable/path2_composer_thought"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/composer_buttons_show_hide_button"
+        android:layout_width="60dp"
+        android:layout_height="57.33333333333333dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/path2_composer_button" >
+
+        <ImageView
+            android:id="@+id/composer_buttons_show_hide_button_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/path2_composer_icn_plus" />
+    </RelativeLayout>
+
+</RelativeLayout>

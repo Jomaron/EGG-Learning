@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_margin="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/search_return_img"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="7dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/found_search_return_blue_press" />
+
+        <com.headlines.view.SearchEditText
+            android:id="@+id/search_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/found_search_bar_edit_selector"
+            android:drawableLeft="@drawable/found_search_bar_icon_normal"
+            android:hint="请输入关键字"
+            android:padding="3dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/search_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="搜索"
+            android:textColor="#3399ff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <com.headlines.view.KeywordsFlowFrame
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </com.headlines.view.KeywordsFlowFrame>
+
+</LinearLayout>
