@@ -18,15 +18,11 @@ License number：
 
 Write software development plans, requirements specifications, and software system design specifications. A social app implemented using the Java programming language and Android Studio as a development tool.
 
-![Image](/UI/framwork.png)
+![](/UI/framwork.png)
 
 ### Client
 
-![Image](/UI/regst.png)
-![Image](/UI/chat.png)
-![Image](/UI/chat.png)
-![Image](/UI/chat4.png)
-![Image](/UI/Screenshot.png)
+![](/UI/regst.png) ![](/UI/chat.png)
 
 ### Download and install
 
