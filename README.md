@@ -1,31 +1,26 @@
-### Introduction
+## Introduction
 
-Computer software copyright registration
+Computer software copyright registration [软著]
 
-Name:
+Software name:
 
 - Social Software Design and Development Based on the Android Platform
-
-Time:
-
-- Oct.2018
 
 License number：
 
 - 2019SR0009515
 
-### Design
+## Design
 
 Write software development plans, requirements specifications, and software system design specifications. A social app implemented using the Java programming language and Android Studio as a development tool.
 
-![](/UI/framwork.png)
+## Client
 
-### Client
+![](/UI/regst.png) ![](/UI/chat.png) ![](/UI/chat4.png) ![](/UI/Screenshot.png)
 
-![](/UI/regst.png) ![](/UI/chat.png)
+## Download and install
 
-### Download and install
+1. Download fellowship.apk
 
-- Download fellowship.apk
-- Obtain related permissions
+2. Obtain related permissions
 
